@@ -6,8 +6,8 @@ sites:
   - name: GitHub Status
     url: https://www.githubstatus.com/api/v2/status.json
     icon: https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg
-    __dangerous__body_down: 'major'
-    __dangerous__body_degraded: 'critical'
+    __dangerous__body_degraded: '"indicator":"major"'
+    __dangerous__body_down: '"indicator":"critical"'
   - name: GitLab Status
     url: https://status.gitlab.com
     icon: https://about.gitlab.com/ico/favicon.ico
@@ -15,18 +15,18 @@ sites:
   - name: Bitbucket Status
     url: https://bitbucket.status.atlassian.com/api/v2/status.json
     icon: https://bitbucket.org/favicon.ico
-    __dangerous__body_down: 'major'
-    __dangerous__body_degraded: 'critical'
+    __dangerous__body_degraded: '"indicator":"major"'
+    __dangerous__body_down: '"indicator":"critical"'
   - name: Jira Status
     url: https://jira-software.status.atlassian.com/api/v2/status.json
     icon: https://www.atlassian.com/favicon.ico
-    __dangerous__body_down: 'major'
-    __dangerous__body_degraded: 'critical'
+    __dangerous__body_degraded: '"indicator":"major"'
+    __dangerous__body_down: '"indicator":"critical"'
   - name: Cloudflare Status
     url: https://www.cloudflarestatus.com/api/v2/status.json
     icon: https://cf-assets.www.cloudflare.com/dzlvafdwdttg/69wNwfiY5mFmgpd9eQFW6j/d5131c08085a977aa70f19e7aada3fa9/1pixel-down__1_.svg
-    __dangerous__body_down: 'major'
-    __dangerous__body_degraded: 'critical'
+    __dangerous__body_degraded: '"indicator":"major"'
+    __dangerous__body_down: '"indicator":"critical"'
     
 
 status-website:
