@@ -3,37 +3,26 @@ owner: dreamsquad-team # Your GitHub organization or username, where this reposi
 repo: upptime # The name of this repository
 
 sites:
-  - name: GitHub API
-    url: https://api.github.com
-    icon: https://github.githubassets.com/favicons/favicon.ico
-    headers:
-      - "User-Agent: upptime-monitor"
   - name: GitHub Status
     url: https://www.githubstatus.com/api/v2/status.json
-    icon: https://github.githubassets.com/favicons/favicon.ico
-    __dangerous__body_down_if_text_missing: '"indicator":"none"'
-  - name: GitLab API
-    url: https://gitlab.com/api/v4/metadata
-    icon: https://about.gitlab.com/ico/favicon.ico
+    icon: https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg
+    __dangerous__body_degraded_if_text_missing: '"indicator":"none"'
   - name: GitLab Status
-    url: https://status.gitlab.com/api/v2/status.json
+    url: https://status.gitlab.com
     icon: https://about.gitlab.com/ico/favicon.ico
-    __dangerous__body_down_if_text_missing: '"indicator":"none"'
+    __dangerous__body_degraded: 'Disruption'
   - name: Bitbucket Status
     url: https://bitbucket.status.atlassian.com/api/v2/status.json
     icon: https://bitbucket.org/favicon.ico
-    __dangerous__body_down_if_text_missing: '"indicator":"none"'
+    __dangerous__body_degraded_if_text_missing: '"indicator":"none"'
   - name: Jira Status
     url: https://jira-software.status.atlassian.com/api/v2/status.json
     icon: https://www.atlassian.com/favicon.ico
-    __dangerous__body_down_if_text_missing: '"indicator":"none"'
-  - name: Cloudflare API
-    url: https://api.cloudflare.com/client/v4/ips
-    icon: https://www.cloudflarestatus.com/favicon.ico
+    __dangerous__body_degraded_if_text_missing: '"indicator":"none"'
   - name: Cloudflare Status
     url: https://www.cloudflarestatus.com/api/v2/status.json
-    icon: https://www.cloudflarestatus.com/favicon.ico
-    __dangerous__body_down_if_text_missing: '"indicator":"none"'
+    icon: https://cf-assets.www.cloudflare.com/dzlvafdwdttg/69wNwfiY5mFmgpd9eQFW6j/d5131c08085a977aa70f19e7aada3fa9/1pixel-down__1_.svg
+    __dangerous__body_degraded_if_text_missing: '"indicator":"none"'
 
 status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
