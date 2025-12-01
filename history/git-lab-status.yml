@@ -1,7 +1,7 @@
-url: https://status.gitlab.com/api/v2/status.json
-status: down
-code: 404
-responseTime: 312
-lastUpdated: 2025-12-01T18:10:48.444Z
+url: https://status.gitlab.com
+status: degraded
+code: 200
+responseTime: 231
+lastUpdated: 2025-12-01T18:49:21.142Z
 startTime: 2025-12-01T18:10:48.112Z
 generator: Upptime <https://github.com/upptime/upptime>
