@@ -11,7 +11,6 @@ status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
   # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
   cname: upptime.dreamsquad.com.br
-  baseUrl: /upptime
   theme: ocean
   logoUrl: https://dreamsquad.com.br/wp-content/uploads/2024/06/LogoP.svg
   name: Upptime
@@ -31,6 +30,8 @@ status-website:
 #   updateTemplate: "0 0 * * *"
 #   updates: "0 3 * * *"
 #   uptime: "*/5 * * * *"
+i18n:
+  footer: This page is [open source]($REPO)
 
 # Upptime also supports notifications, assigning issues, and more
 # See https://upptime.js.org/docs/configuration
