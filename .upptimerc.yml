@@ -10,8 +10,8 @@ sites:
 status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
   # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
-  # cname: upptime.dreamsquad.com.br
-  # baseUrl: /your-repo-name
+  cname: upptime.dreamsquad.com.br
+  baseUrl: /upptime
   theme: night
   logoUrl: https://dreamsquad.com.br/wp-content/uploads/2024/06/LogoP.svg
   name: Upptime
