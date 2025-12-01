@@ -24,7 +24,7 @@ sites:
     __dangerous__body_down: '"indicator":"critical"'
   - name: Cloudflare Status
     url: https://www.cloudflarestatus.com/api/v2/status.json
-    icon: https://cf-assets.www.cloudflare.com/dzlvafdwdttg/69wNwfiY5mFmgpd9eQFW6j/d5131c08085a977aa70f19e7aada3fa9/1pixel-down__1_.svg
+    icon: https://www.svgrepo.com/show/353564/cloudflare.svg
     __dangerous__body_degraded: '"indicator":"major"'
     __dangerous__body_down: '"indicator":"critical"'
     
