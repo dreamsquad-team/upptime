@@ -1,7 +1,7 @@
 url: https://status.gitlab.com
-status: up
+status: down
 code: 200
-responseTime: 214
-lastUpdated: 2025-12-09T23:18:44.571Z
+responseTime: 289
+lastUpdated: 2025-12-10T15:33:38.267Z
 startTime: 2025-12-01T18:10:48.112Z
 generator: Upptime <https://github.com/upptime/upptime>
