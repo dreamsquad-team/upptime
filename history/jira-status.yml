@@ -1,7 +1,7 @@
 url: https://jira-software.status.atlassian.com/api/v2/status.json
 status: up
 code: 200
-responseTime: 158
-lastUpdated: 2025-12-28T23:18:36.225Z
+responseTime: 159
+lastUpdated: 2025-12-29T23:18:50.828Z
 startTime: 2025-12-01T18:10:50.792Z
 generator: Upptime <https://github.com/upptime/upptime>
